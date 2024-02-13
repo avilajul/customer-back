@@ -70,7 +70,7 @@ jobs:
           #Using -m "mesage" on merge command ins mandatori here in order to avoid open a text editor to write a commit message
           git merge --no-ff --verbose origin/${{ github.event.pull_request.head.ref }} -m "Merge pull request #${{ github.event.number }}"
 
-      ########################################################
+      ##########################################################
       # 3- Push changes after merge
       ##########################################################
 
